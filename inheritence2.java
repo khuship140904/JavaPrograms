@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
+public class inheritence2 {
+    
+}
