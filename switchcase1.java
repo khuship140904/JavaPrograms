@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class switchcase1 {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in) ;
+    Scanner sc=new Scanner(System.in) ;
     System.out.print("enter the character-");
     char character = sc.next().charAt(0);
     
@@ -14,7 +14,7 @@ public class switchcase1 {
         case 'o':
         case 'u':
     
-            System.out.println("the character is vowel");
+        System.out.println("the character is vowel");
             
     default:
     if (character>='a' && character <='z') {
