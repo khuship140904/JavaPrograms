@@ -8,7 +8,7 @@ public class palindrome {
         int original=a;
         int digit;
         int reverse =0 ;
-         while (a>0) {
+         while (a>0){
             digit=a%10;
             reverse = reverse*10+digit;
             a=a/10;
@@ -21,6 +21,4 @@ public class palindrome {
             System.out.println("the number is not palindrome");
         }
     }
-    
-    
 }
