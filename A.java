@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* in this challenge, you must read  integers from stdin and then print them to stdout. 
 Each integer must be printed on a new line. To make the problem a little easier,
  a portion of the code is provided for you in the editor below.
@@ -18,3 +19,15 @@ class A {
         }
 
 }
+=======
+public class A {
+    public static void main(String[] args) {
+        try{int y=12/0;}
+        catch(ArithmeticException e){
+          System.out.println("problem here");  
+        }
+        //System.out.println(y);
+    }
+    
+}
+>>>>>>> cd93c0b9d8c8c8a4ae738f0be340472bbc8e6eaf
